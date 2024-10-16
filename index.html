@@ -6,8 +6,9 @@
     <title>NutriBites | Ecommerce</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 <body>
@@ -16,18 +17,18 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="images/logo.png" width="125px">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
             </div>
             <nav>
                 <ul id="MenuItems">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Account</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
                 </ul>
             </nav>
-            <img src="images/cart.png" width="40px" height="40px">
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
             <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
         <div class="row">
@@ -65,18 +66,39 @@
     <h2 class="title">featured Products</h2>
     <div class="row">
         <div class="col-4">
-            <img src="images/image5.png">
-            <h4>Tropical Mango-Pineapple</h4>
-            <p>₱300.00</p>
+            <a href="product-details.html"><img src="images/image5.png"></a>
+            <a href="product-details.html"><h4>Tropical Breeze</h4></a>
+         <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+            <p>₱250.00</p>
         </div>
         <div class="col-4">
             <img src="images/image6.png">
-            <h4>Mixed Berry Blast</h4>
+            <h4>Berry Twist</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
             <p>₱250.00</p>
         </div>
         <div class="col-4">
             <img src="images/image7.png">
-            <h4>Citrus Zest</h4>
+            <h4>Citrus Blast</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
             <p>₱250.00</p>
         </div>
     </div>
@@ -86,12 +108,13 @@
     <div class="small-container">
         <div class="row">
             <div class="col-2">
-                <img src="images/image8.png" class="offer-img">
+                <img src="images/product8.png" class="offer-img">
             </div>
             <div class="col-2">
                 <p>Exclusively Available on NutriBites</p>
                 <h1>JavaBites!</h1>
                 <small>For a limited time only, experience the bold and rich taste of coffee in a gummy! Infused with energy-boosting vitamins, this exclusive flavor is perfect for coffee lovers who want to stay focused and alert throughout the day. Don’t miss out on this unique blend of taste and vitality—grab yours while supplies last!</small>
+                <br>
                 <a href="" class="btn">Buy Now &#8594;</a>
             </div>
         </div>
@@ -112,7 +135,7 @@
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="images/logo.png">
+                <img src="images/logo2.png">
                 <p>Our purpose is to provide a delicious, vitamin-packed gummy that boosts energy and supports daily wellness.</p>
             </div>
              <div class="footer-col-3">
